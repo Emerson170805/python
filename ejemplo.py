@@ -1,2 +1,1 @@
-numeros = [int(input(f"Ingrese el {i+1} numero: ")) for i in range(int(input("Ingrese cuantos numeros quieres agregar: ")))]
-print(sorted(numeros))
+print(sorted(int(input(f"Ingrese el {i+1} numero: ")) for i in range (int(input("Ingrese la cantidad de numeros: ")))))
