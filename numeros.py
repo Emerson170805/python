@@ -1,8 +1,2 @@
-numeros=[]
-
-cantidad=int(input("Ingrese cuantos numeros quieres agregar: "))
-
-for i in range (1,cantidad+1):
-    numeros.append(int(input(f"Ingrese {i} numero: ")))
-    
+numeros = [int(input(f"Ingrese {i+1}º número: ")) for i in range(int(input("Ingrese cuántos números quieres agregar: ")))]
 print(sorted(numeros))
