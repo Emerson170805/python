@@ -1,18 +1,9 @@
-numer1=int(input("Introduce el primer número: "))
-numer2=int(input("Introduce el segundo número: "))
-
-suma=numer1+numer2
-resta=numer1-numer2
-multiplicacion=numer1*numer2
-division=numer1/numer2
+numero1=int(input("Ingrese el primer numero: "))
+numero2=int(input("Ingrese el segundo numero: "))
+numero3=int(input("Ingrese el Tercero numero: "))
+numero4=int(input("Ingrese el Cuarto numero: "))
+numero5=int(input("Ingrese el Quinto numero: "))
 
 
-suma=numer1+numer2
-resta=numer1-numer2
-multiplicacion=numer1*numer2
-division=numer1/numer2
-
-suma=numer1+numer2
-resta=numer1-numer2
-multiplicacion=numer1*numer2
-division=numer1/numer2
+numeros=(numero1,numero2,numero3,numero4,numero5)
+print(sorted(numeros))
